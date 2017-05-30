@@ -28,7 +28,7 @@ public class Spaceship implements Runnable{
     
     public Spaceship() throws IOException{
         //Cargamos la imagen
-        nave = ImageIO.read(JPGameScreen.class.getResourceAsStream("/assets/spaceship.png"));
+        nave = ImageIO.read(JPGameScreen.class.getResourceAsStream("/assets/Marco.png"));
         //Inicializamos posiciones
         xNave = (GameEngine.screenWidth-nave.getWidth())/2;
         yNave = GameEngine.screenHeight-nave.getHeight()*2;
