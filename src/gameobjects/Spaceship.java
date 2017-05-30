@@ -11,6 +11,7 @@ import net.juanxxiii.j23gameengine.gui.JPGameScreen;
  * Nave espacial
  * @author Paniagua
  */
+//HOLA
 public class Spaceship implements Runnable{
     private static final int STOP=-1;
     private static final int UP=0;
